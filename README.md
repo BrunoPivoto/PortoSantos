@@ -13,3 +13,7 @@
 <p>Execute o comando "dotnet build" e depois "dotnet run" </p>
 <p>Assimm o aplicativo deverá abrir na porta 5001 do https</p>
 <p>Utilizando o Swagger podemos testar todas as funções em https://localhost:5001/swagger/index.html</p>
+<p></p><p>Se tudo ocorrer bem deverá aparecer uma tela assim:</p>
+
+
+![image](https://user-images.githubusercontent.com/75286020/160028349-d76a7e58-d3ff-4746-b6d0-2410af3f1437.png)
