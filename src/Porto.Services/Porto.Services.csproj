@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="automapper" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Porto.Domain\Porto.Domain.csproj" />
+    <ProjectReference Include="..\Porto.Core\Porto.Core.csproj" />
+    <ProjectReference Include="..\Porto.Infra\Porto.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

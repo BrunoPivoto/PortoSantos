@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="automapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Porto.Domain\Porto.Domain.csproj" />
+    <ProjectReference Include="..\Porto.Services\Porto.Services.csproj" />
+    <ProjectReference Include="..\Porto.Infra\Porto.Infra.csproj" />
+    <ProjectReference Include="..\Porto.Core\Porto.Core.csproj" />
+  </ItemGroup>
+
+</Project>
