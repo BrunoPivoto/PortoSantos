@@ -25,14 +25,6 @@ $ dotnet run
 
 #Se tudo ocorrer bem deverá aparecer uma tela assim:
 
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-
 ```
 
 ![image](https://user-images.githubusercontent.com/75286020/160028349-d76a7e58-d3ff-4746-b6d0-2410af3f1437.png)
